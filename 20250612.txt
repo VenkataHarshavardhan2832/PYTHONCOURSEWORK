@@ -1,0 +1,9 @@
+cd : change directory
+ls : lists
+rm : remove the files
+clear : clears the terminal
+git status : check changes
+git add :  add a files
+git commit -m: saves the messages
+git push : push code to git hub
+git checkout -b : change to new branch
