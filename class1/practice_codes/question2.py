@@ -16,3 +16,15 @@ Hi David! At 45 years old, you are an adult.
 
 
 '''
+name = input("What is your name?: ")
+age = int(input("What is your age?: "))
+
+if age <= 12:
+    print("youa are a Child")
+elif age <= 19:
+    print("You are a Teenager")
+elif age <= 64:
+    print("You are a Adult")
+else:
+    print("You are a Senior")
+    
