@@ -16,3 +16,10 @@ MARKRAM is a palindrome
 
 HARSHA is not a palindrome
 '''
+text = input("What is your name: ")
+
+reversed_text = text[::-1]
+if text == reversed_text:
+    print(f"{text} is a palindrome")
+else:
+    print(f"{text} is not a palindrome")
