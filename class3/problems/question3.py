@@ -13,3 +13,12 @@ element = 60
 output: false
 
 '''
+list_of_numbers = [1, 2, 3, 4, 5]
+element = int(input("Enter a number: "))
+
+def check_element(array, element):
+    for i in array:
+        if i == element:
+            return True
+    return False
+print(check_element(list_of_numbers, element))
