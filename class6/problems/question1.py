@@ -4,3 +4,7 @@ Take a string as input form the user print number of times each charecter is rep
 example : harsha
 output: h : 2, a:2,r:1,s:1
 '''
+s = input("Enter a string: ")
+for ch in s:
+    if s.index(ch) == s.find(ch):  # to avoid printing duplicates
+        print(ch, ":", s.count(ch), end=", ")
