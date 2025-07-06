@@ -14,3 +14,11 @@ arr = [5,4,3,2,1,2,3,4,5]
 NOTE : The keys shouldn't repeated
 
 '''
+arr = [5, 4, 3, 2, 1, 2, 3, 4, 5]
+result = {}
+
+for x in arr:
+    if x not in result:
+        result[x] = x * 10
+
+print(result)
