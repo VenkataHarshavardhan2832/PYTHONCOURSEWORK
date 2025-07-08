@@ -80,3 +80,31 @@ def insertion_sort(arr):
 insertion_sort([5,4,3,2,1])
 insertion_sort([5,4,2,1,6,3])
 
+'''
+arr = [4,2,5,1,3]
+i = 0
+[1,2,5,4,3]
+i = 1
+1,2,5,4,3
+i = 2
+1,2,3,4,5
+
+'''
+"""def selection_sort(arr):
+    for i in range(0, len(arr)):
+        for j in range(i+1, len(arr)):"""
+print("###")
+def selection_sort(arr):
+    for i in range(0, len(arr)):
+        min_index = i
+        min_number = arr[i]
+        for j in range(i + 1, len(arr)):
+            if arr[j] < arr[min_index]:
+                min_index = j
+        key = arr[i]
+        arr[i] = arr[min_index]
+        arr[min_index] = key
+        print(arr)
+    print(arr)
+          
+selection_sort([4,2,5,1,3])   

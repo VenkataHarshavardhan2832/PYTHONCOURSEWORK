@@ -14,3 +14,6 @@ arr = [5,4,3,2,1,2,3,4,5]
 NOTE : The keys shouldn't repeated
 
 '''
+arr = [5,4,3,2,1,2,3,4,5]
+result = {x: x * 10 for x in arr}
+print(result)
